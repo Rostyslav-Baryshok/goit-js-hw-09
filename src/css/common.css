@@ -30,3 +30,57 @@ img {
   border-color: #00000066;
   border-radius: 30px;
 }
+
+.button__timer {
+  width: 80px;
+  height: 45px;
+  font-size: 21px;
+  cursor: pointer;
+  border-color: #00000066;
+  border-radius: 5px;
+}
+
+.section__timer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container__timer {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.output__thumb {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.input__thumb {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.timer__span {
+  display: block;
+}
+
+.timer__span.value {
+  width: 200px;
+  font-size: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+.timer__span.label {
+  font-size: 40px;
+}
+
+input[type='text'] {
+  width: 245px;
+  height: 45px;
+  margin-right: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+}
