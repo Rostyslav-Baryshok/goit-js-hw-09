@@ -16,3 +16,17 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn-wrap {
+  text-align: center;
+  margin: 15%;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  border-color: #00000066;
+  border-radius: 30px;
+}
